@@ -52,7 +52,8 @@ $x = 10.235;
 var_dump(is_float($x)) . "<br/>";
 echo is_finite($num) . " finite" . "<br/>";
 $val = 2734982783742738927852345738927387387298;
-echo is_finite($val) . 'is finite';
+echo is_finite($val) . 'is finite' . '<br/>';
+echo is_nan("H") . "nan" . "<br/>";
 ?>
 
 <h3>php string</h3>
