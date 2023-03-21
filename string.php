@@ -53,7 +53,12 @@ var_dump(is_float($x)) . "<br/>";
 echo is_finite($num) . " finite" . "<br/>";
 $val = 2734982783742738927852345738927387387298;
 echo is_finite($val) . 'is finite' . '<br/>';
-echo is_nan("H") . "nan" . "<br/>";
+// echo is_nan("H") . "nan" . "<br/>";
+echo var_dump(is_float($num)) . "<br/>";
+echo is_numeric("50") . "<br/>";
+$integer = (int)$num;
+echo $integer . "<br/>";
+echo intval($num);
 ?>
 
 <h3>php string</h3>
