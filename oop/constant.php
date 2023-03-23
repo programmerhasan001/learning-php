@@ -13,3 +13,7 @@ echo Company::COMPANY_NAME;
 echo "<br/>";
 $c1 = new Company();
 echo $c1->message();
+
+?>
+
+<h4>php constant</h4>
